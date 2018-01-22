@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.card {
+	list-style-type: none;
+	display: flex;
+	margin-right: 40px;
+	padding: 10px;
+	border-bottom: 1px solid black;
+	
+}
+button {
+	border: none;
+}
+.btn-delete {
+	background-color: red;
+	height: 20px
+}
+.add-card {
+	background-color: greenyellow
+}
+.column {
+	text-align: center;
+	display: inline-table;
+	border: 1px solid black;
+	margin: 5px;
+	width: 25%;
+}
+
+.column-title {
+	text-transform: uppercase;
+	color: red;
+}
