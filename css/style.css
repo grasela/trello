@@ -1,36 +1,61 @@
 body {
-	margin: 0;
+	margin: 20px;
 	padding: 0;
 	border: 0;
 }
 
-.card {
-	list-style-type: none;
+.column li {
 	display: flex;
-	margin-right: 40px;
-	padding: 10px;
-	border-bottom: 1px solid black;
-	
+	margin-left: -39px;
+	border: 1px solid black;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	background-color: aqua;
 }
+
+.column {
+	width: 300px;
+	display: inline-table;
+	min-height: 10px;
+	margin:10px;
+}
+
 button {
 	border: none;
 }
-.btn-delete {
-	background-color: red;
-	height: 20px
-}
-.add-card {
-	background-color: greenyellow
-}
-.column {
-	text-align: center;
-	display: inline-table;
-	border: 1px solid black;
-	margin: 5px;
-	width: 25%;
+div li button {
+	border: none;
+	background-color: aqua;
 }
 
-.column-title {
+div h2 {
+	text-align: center;
 	text-transform: uppercase;
-	color: red;
+	background-color: beige;
+	border-radius: 10px;
+}
+
+
+.column-card-list {
+	min-height: 10px;
+}
+
+.btn-delete {
+	height: 10px;
+	display: inline-table;
+	margin-top: 17px
+}
+
+.create-column {
+	background-color: aquamarine;
+	border-radius: 10px;
+	display: inline;
+	width: 300px;
+	margin: 10px
+}
+
+.card-description { 
+	margin-left: 50%;
+	width: auto;
+	transform: translateX(-100%);
 }
